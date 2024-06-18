@@ -28,7 +28,7 @@ int main() {
                 result = multiply(number1, number2);
                 break;
             case '/':
-                result = dev(number1, number2);
+                result = div(number1, number2);
                 break;
             default:
                 cout << "Unknown operator!" << endl;
