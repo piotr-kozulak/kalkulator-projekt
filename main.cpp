@@ -32,7 +32,7 @@ int main() {
                 break;
             default:
                 cout << "Unknown operator!" << endl;
-                continue; // Pominąć tę iterację pętli
+                continue;
         }
 
         cout << "Result: " << result << endl;

@@ -17,9 +17,11 @@ double multiply(double liczba1, double liczba2) {
 }
 
 double div(double liczba1, double liczba2) {
-    if (liczba2 == 0) {
+    if (liczba2 == 0)
+        cout << "Error: Cannot divide by zero!" << endl;
+    {
 
-        return 0;
+
     }
     return liczba1 / liczba2;
 }
