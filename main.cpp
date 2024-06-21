@@ -20,27 +20,28 @@ int main() {
         switch (operation) {
             case '+':
                 result = add(number1, number2);
+                cout << "Result: " << result << endl;
                 break;
             case '-':
                 result = sub(number1, number2);
+                cout << "Result: " << result << endl;
                 break;
             case '*':
                 result = multiply(number1, number2);
+                cout << "Result: " << result << endl;
                 break;
             case '/':
+                result = div(number1, number2);
+                (number2 == 0)?  cout << "Error: Cannot divide by zero!" << endl: cout << "result is:" <<result << endl;
 
-                if (number2 != 0){
-                    result = div(number1, number2);
-                }else{
-                    cout << "Error: Cannot divide by zero!" << endl;
-                }
+
                 break;
             default:
                 cout << "Unknown operator!" << endl;
                 continue;
         }
 
-        cout << "Result: " << result << endl;
+
 
         cout << "Do you want continue? (y/n): ";
 
