@@ -28,7 +28,12 @@ int main() {
                 result = multiply(number1, number2);
                 break;
             case '/':
-                result = div(number1, number2);
+
+                if (number2 != 0){
+                    result = div(number1, number2);
+                }else{
+                    cout << "Error: Cannot divide by zero!" << endl;
+                }
                 break;
             default:
                 cout << "Unknown operator!" << endl;

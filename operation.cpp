@@ -4,24 +4,21 @@
 
 #include <iostream>
 using namespace std;
-double add(double liczba1, double liczba2) {
-    return liczba1 + liczba2;
+double add(double number1, double number2) {
+    return number1 + number2;
 }
 
-double sub(double liczba1, double liczba2) {
-    return liczba1 - liczba2;
+double sub(double number1, double number2) {
+    return number1 - number2;
 }
 
-double multiply(double liczba1, double liczba2) {
-    return liczba1 * liczba2;
+double multiply(double number1, double number2) {
+    return number1 * number2;
 }
 
-double div(double liczba1, double liczba2) {
-    if (liczba2 == 0)
-        cout << "Error: Cannot divide by zero!" << endl;
-    {
+double div(double number1, double number2) {
 
 
-    }
-    return liczba1 / liczba2;
+
+    return number1 / number2;
 }
